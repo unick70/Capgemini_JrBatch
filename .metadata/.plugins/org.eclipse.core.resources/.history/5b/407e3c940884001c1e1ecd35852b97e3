@@ -1,0 +1,9 @@
+package cap.project;
+
+public class IntegerValueOfExample {
+
+	@suppressWarning("Static access")
+	public static void main(String[]args) {
+		
+	}
+}

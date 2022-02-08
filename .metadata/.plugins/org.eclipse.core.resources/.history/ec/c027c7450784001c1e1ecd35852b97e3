@@ -1,0 +1,11 @@
+package cap.project;
+
+public class Rotateleft {
+public static void rotateMethods() {
+	int valrot =2;
+	System.out.println("rotateleft000");
+	System.out.println("rotateRight");
+}
+
+
+}

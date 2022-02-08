@@ -1,0 +1,13 @@
+
+public class addition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int myvar=500;
+		int myvar2=100;
+		int var3=myvar+myvar2;
+		System.out.println(var3);
+
+	}
+
+}

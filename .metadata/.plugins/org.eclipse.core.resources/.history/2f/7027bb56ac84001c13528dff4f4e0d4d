@@ -1,0 +1,56 @@
+package capgi.day6;
+
+import java.util.*;
+
+
+class OnlyPositiveNumbersAllowed extends Exception
+{
+	
+	public OnlyPositiveNumbersAllowed (String msg)
+	{
+		super(msg);
+		
+	}
+
+	public OnlyPositiveNumbersAllowed() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public OnlyPositiveNumbersAllowed(String message, Throwable cause, boolean enableSuppression,
+			boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+	public OnlyPositiveNumbersAllowed(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public OnlyPositiveNumbersAllowed(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+	
+	}
+      public class MyCustomException  {
+    	  
+    	  public static void main(String[]args) throws OnlyPositiveNumbersAllowed
+    	  {
+    		  Scanner sc=new Scanner(System.in);
+    		  int number =sc.nextInt();
+    		  if(number>0)
+    		  {
+    		  }
+    		  else {
+    			  
+    			  throw new OnlyPositiveNumbersAllowed("OnlyPositiveNumbersAllowed");
+    			  
+    		  }
+    	  }
+	
+
+}
+
+

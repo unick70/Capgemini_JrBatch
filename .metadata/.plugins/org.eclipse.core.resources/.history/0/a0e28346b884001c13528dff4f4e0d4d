@@ -1,0 +1,32 @@
+package capgi.day6;
+
+import java.util.*;
+
+
+class OnlyPositiveNumbersAllowed extends Exception
+{
+	
+	public OnlyPositiveNumbersAllowed (String msg)
+	{
+		super(msg);
+		
+	}
+
+    	  public static void main(String[]args) throws OnlyPositiveNumbersAllowed
+    	  {
+    		  Scanner sc=new Scanner(System.in);
+    		  int number =sc.nextInt();
+    		  if(number>0)
+    		  {
+    		  }
+    		  else {
+    			  
+    			  throw new OnlyPositiveNumbersAllowed("OnlyPositiveNumbersAllowed");
+    			  
+    		  }
+    	  }
+	
+
+}
+
+

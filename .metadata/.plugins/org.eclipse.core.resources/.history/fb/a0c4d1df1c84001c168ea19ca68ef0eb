@@ -1,0 +1,7 @@
+package cap.project;
+
+public class SwapTwoStrings {
+	
+	string a = "hello"
+
+}

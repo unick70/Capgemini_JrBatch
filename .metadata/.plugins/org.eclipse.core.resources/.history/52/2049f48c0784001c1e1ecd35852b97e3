@@ -1,0 +1,6 @@
+package cap.project;
+
+public class IntegerShortValueExample {
+
+	public static void main(String[] args);
+}

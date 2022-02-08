@@ -1,0 +1,25 @@
+package com.capg.day1;
+
+public class MyIfElseLadder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int day=10;
+		if(day==1)
+		{
+			System.out.println("sun");
+		}
+		else if (day==2)
+		{
+			System.out.println("mon");
+		}
+			
+	    else if (day==3)
+	    {
+	    	System.out.println("tue");
+	    	
+	    }
+			
+		}
+	}
+
